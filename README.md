@@ -64,10 +64,10 @@ Jeżeli przełączysz się po raz pierwszy na wybrany wykład poleceniem `git sw
 Wykonaj poniższe polecenia:
 
 ```bash
-
-```
 git branch --set-upstream-to=origin/wyklad0X wyklad0X
 git pull
+```
+
 ---
 
 ## Jak pracować z materiałami
