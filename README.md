@@ -59,6 +59,15 @@ Jeśli to pierwszy raz:
 git switch -c wyklad01 origin/wyklad01
 ```
 
+
+Jeżeli przełączysz się po raz pierwszy na wybrany wykład poleceniem `git switch wyklad0X` musisz samodzielnie ustawić połączenie między lokalnym branchem a jego źródłem w repozytorium.
+Wykonaj poniższe polecenia:
+
+```bash
+
+```
+git branch --set-upstream-to=origin/wyklad0X wyklad0X
+git pull
 ---
 
 ## Jak pracować z materiałami
