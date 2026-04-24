@@ -24,7 +24,7 @@ class MovieSerializerTEST(serializers.Serializer):
         instance.save()
         return instance
 
-
-
+class DescriptionSerializer(serializers.Serializer):
+    description = serializers.CharField(required=False, allow_blank=True)
 
 
